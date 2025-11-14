@@ -81,7 +81,7 @@ export default function AboutPage() {
             {/* Managing Director Photo */}
             <div className="relative w-32 h-32 mx-auto mb-6">
               <Image 
-                src="/images/managing-director.jpg" 
+                src="/images/managing-director.png" 
                 alt={contactInfo.managingDirector.name}
                 fill
                 className="object-cover rounded-full"
