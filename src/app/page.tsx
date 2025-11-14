@@ -5,17 +5,16 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white min-h-screen">
+      <section className="relative text-white min-h-screen">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
             src="/images/hero-background.jfif" 
             alt="Mining Operations" 
             fill
-            className="object-cover opacity-30"
+            className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/70 to-blue-950/70"></div>
         </div>
         
         <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
