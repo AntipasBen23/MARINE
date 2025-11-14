@@ -14,6 +14,8 @@ export default function AboutPage() {
             fill
             className="object-cover opacity-20"
           />
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
@@ -79,7 +81,7 @@ export default function AboutPage() {
             {/* Managing Director Photo */}
             <div className="relative w-32 h-32 mx-auto mb-6">
               <Image 
-                src="/images/managing-director.jpg" 
+                src="/images/managing-director.png" 
                 alt={contactInfo.managingDirector.name}
                 fill
                 className="object-cover rounded-full"
