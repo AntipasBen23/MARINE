@@ -1,4 +1,4 @@
-import { companyInfo } from "@/lib/data/company";
+import { companyInfo } from "@/lib/data/company"
 
 export default function Home() {
   return (
