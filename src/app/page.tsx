@@ -21,27 +21,27 @@ export default function Home() {
         
         <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{ color: 'rgb(224, 151, 65)' }}>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
               {companyInfo.mission}
             </h1>
-            <p className="text-xl md:text-2xl mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
+            <p className="text-xl md:text-2xl mb-8 text-white">
               {companyInfo.vision}
             </p>
-            <p className="text-lg mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
+            <p className="text-lg mb-8 text-white">
               {companyInfo.overview}
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projects"
                 className="px-8 py-3 rounded-lg font-semibold transition hover:opacity-90"
-                style={{ backgroundColor: 'rgb(224, 151, 65)', color: 'white' }}
+                style={{ backgroundColor: 'rgb(107, 42, 0)', color: 'white' }}
               >
                 Explore Projects
               </a>
               <a
                 href="#contact"
                 className="border-2 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition"
-                style={{ borderColor: 'rgb(224, 151, 65)' }}
+                style={{ borderColor: 'rgb(107, 42, 0)' }}
               >
                 Contact Us
               </a>
@@ -131,9 +131,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8" style={{ backgroundColor: 'rgb(224, 151, 65)' }}>
+      <footer className="py-8" style={{ backgroundColor: 'rgb(107, 42, 0)' }}>
         <div className="container mx-auto px-4 text-center">
-          <p className="text-white">
+          <p style={{ color: 'rgb(224, 151, 65)' }}>
             © 2025 B&R Marine Energy Logistics Ltd. All rights reserved.
           </p>
         </div>
