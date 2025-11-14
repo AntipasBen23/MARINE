@@ -9,7 +9,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero-background.jpg" 
+            src="/images/hero-background.jfif" 
             alt="Mining Operations" 
             fill
             className="object-cover"
