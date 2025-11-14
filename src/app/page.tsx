@@ -131,15 +131,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-8" style={{ backgroundColor: 'rgb(107, 42, 0)' }}>
-        <div className="container mx-auto px-4 text-center">
-          <p style={{ color: 'rgb(224, 151, 65)' }}>
-            © 2025 B&R Marine Energy Logistics Ltd. All rights reserved.
-          </p>
-        </div>
-      </footer>
     </main>
   );
 }
