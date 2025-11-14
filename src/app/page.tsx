@@ -99,14 +99,14 @@ export default function Home() {
       {/* Activities Section */}
       <section id="projects" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(224, 151, 65)' }}>Our Operations</h2>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>Our Operations</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.activities.map((activity, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(224, 151, 65)' }}>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>
                   {activity.title}
                 </h3>
-                <p style={{ color: 'rgb(224, 151, 65)' }}>{activity.description}</p>
+                <p style={{ color: 'rgb(107, 42, 0)' }}>{activity.description}</p>
               </div>
             ))}
           </div>
