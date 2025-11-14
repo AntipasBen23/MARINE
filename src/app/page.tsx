@@ -55,21 +55,21 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                 {companyInfo.sites.kogi.cadastralUnits}
               </div>
               <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units - Kogi</div>
               <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Gold Exploration</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                 {companyInfo.sites.crossRiver.cadastralUnits}
               </div>
               <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units - Cross River</div>
               <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Multi-Mineral</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                 {companyInfo.sites.crossRiver.mineralsCount}+
               </div>
               <div style={{ color: 'rgb(224, 151, 65)' }}>Minerals Identified</div>
@@ -87,7 +87,7 @@ export default function Home() {
             {companyInfo.coreValues.map((value, index) => (
               <div key={index} className="text-center p-6">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(224, 151, 65, 0.2)' }}>
-                  <span className="text-2xl font-bold" style={{ color: 'rgb(224, 151, 65)' }}>{index + 1}</span>
+                  <span className="text-2xl font-bold" style={{ color: 'rgb(107, 42, 0)' }}>{index + 1}</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>{value}</h3>
               </div>
