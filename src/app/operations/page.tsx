@@ -53,7 +53,7 @@ export default function OperationsPage() {
             </div>
             <div className="relative h-80">
               <Image 
-                src="/images/kogi-site.jpg" 
+                src="/images/kogi-site.jfif" 
                 alt="Kogi State Operations" 
                 fill
                 className="object-cover rounded-lg"
@@ -69,7 +69,7 @@ export default function OperationsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-80 order-2 lg:order-1">
               <Image 
-                src="/images/cross-river-site.jpg" 
+                src="/images/cross-river-site.jfif" 
                 alt="Cross River State Operations" 
                 fill
                 className="object-cover rounded-lg"

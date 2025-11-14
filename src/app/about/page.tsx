@@ -15,14 +15,14 @@ export default function AboutPage() {
             className="object-cover opacity-20"
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
             About B&R Marine Energy
           </h1>
-          <p className="text-lg max-w-3xl" style={{ color: 'rgb(224, 151, 65)' }}>
+          <p className="text-lg max-w-3xl text-white">
             {companyInfo.overview}
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
             {/* Managing Director Photo */}
             <div className="relative w-32 h-32 mx-auto mb-6">
               <Image 
-                src="/images/managing-director.png" 
+                src="/images/managing-director.jpg" 
                 alt={contactInfo.managingDirector.name}
                 fill
                 className="object-cover rounded-full"
