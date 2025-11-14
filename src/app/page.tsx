@@ -1,18 +1,21 @@
 import { companyInfo } from "@/lib/data/company";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white min-h-screen">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/hero-background.jpg" 
+          <Image 
+            src="/images/hero-background.jfif" 
             alt="Mining Operations" 
-            className="w-full h-full object-cover opacity-30"
+            fill
+            className="object-cover opacity-30"
+            priority
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/80 to-blue-950/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/70 to-blue-950/70"></div>
         </div>
         
         <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
