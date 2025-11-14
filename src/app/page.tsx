@@ -1,3 +1,5 @@
+"use client";
+
 import { companyInfo } from "@/lib/data/company";
 import Image from "next/image";
 
@@ -9,7 +11,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero-background.jfif" 
+            src="/images/hero-background.jpg" 
             alt="Mining Operations" 
             fill
             className="object-cover"
@@ -31,10 +33,8 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="px-8 py-3 rounded-lg font-semibold transition"
+                className="px-8 py-3 rounded-lg font-semibold transition hover:opacity-90"
                 style={{ backgroundColor: 'rgb(107, 42, 0)', color: 'white' }}
-                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgb(87, 22, 0)'}
-                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgb(107, 42, 0)'}
               >
                 Explore Projects
               </a>
