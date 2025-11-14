@@ -21,27 +21,27 @@ export default function Home() {
         
         <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{ color: 'rgb(224, 151, 65)' }}>
               {companyInfo.mission}
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+            <p className="text-xl md:text-2xl mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
               {companyInfo.vision}
             </p>
-            <p className="text-lg text-blue-200 mb-8">
+            <p className="text-lg mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
               {companyInfo.overview}
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projects"
                 className="px-8 py-3 rounded-lg font-semibold transition hover:opacity-90"
-                style={{ backgroundColor: 'rgb(107, 42, 0)', color: 'white' }}
+                style={{ backgroundColor: 'rgb(224, 151, 65)', color: 'white' }}
               >
                 Explore Projects
               </a>
               <a
                 href="#contact"
                 className="border-2 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition"
-                style={{ borderColor: 'rgb(107, 42, 0)' }}
+                style={{ borderColor: 'rgb(224, 151, 65)' }}
               >
                 Contact Us
               </a>
@@ -55,25 +55,25 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>
                 {companyInfo.sites.kogi.cadastralUnits}
               </div>
-              <div className="text-gray-600">Cadastral Units - Kogi</div>
-              <div className="text-sm text-gray-500 mt-2">Gold Exploration</div>
+              <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units - Kogi</div>
+              <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Gold Exploration</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>
                 {companyInfo.sites.crossRiver.cadastralUnits}
               </div>
-              <div className="text-gray-600">Cadastral Units - Cross River</div>
-              <div className="text-sm text-gray-500 mt-2">Multi-Mineral</div>
+              <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units - Cross River</div>
+              <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Multi-Mineral</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>
                 {companyInfo.sites.crossRiver.mineralsCount}+
               </div>
-              <div className="text-gray-600">Minerals Identified</div>
-              <div className="text-sm text-gray-500 mt-2">Calabar Site</div>
+              <div style={{ color: 'rgb(224, 151, 65)' }}>Minerals Identified</div>
+              <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Calabar Site</div>
             </div>
           </div>
         </div>
@@ -82,14 +82,14 @@ export default function Home() {
       {/* Values Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(224, 151, 65)' }}>Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.coreValues.map((value, index) => (
               <div key={index} className="text-center p-6">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(107, 42, 0, 0.2)' }}>
-                  <span className="text-2xl font-bold" style={{ color: 'rgb(107, 42, 0)' }}>{index + 1}</span>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(224, 151, 65, 0.2)' }}>
+                  <span className="text-2xl font-bold" style={{ color: 'rgb(224, 151, 65)' }}>{index + 1}</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{value}</h3>
+                <h3 className="text-xl font-semibold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>{value}</h3>
               </div>
             ))}
           </div>
@@ -99,14 +99,14 @@ export default function Home() {
       {/* Activities Section */}
       <section id="projects" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Operations</h2>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(224, 151, 65)' }}>Our Operations</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.activities.map((activity, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(224, 151, 65)' }}>
                   {activity.title}
                 </h3>
-                <p className="text-gray-600">{activity.description}</p>
+                <p style={{ color: 'rgb(224, 151, 65)' }}>{activity.description}</p>
               </div>
             ))}
           </div>
@@ -114,7 +114,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-16 text-white" style={{ background: 'linear-gradient(to right, rgb(107, 42, 0), rgb(87, 22, 0))' }}>
+      <section id="contact" className="py-16 text-white" style={{ background: 'linear-gradient(to right, rgb(224, 151, 65), rgb(204, 131, 45))' }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Invest in Africa's Future?</h2>
           <p className="text-xl mb-8 text-white/90">
@@ -123,7 +123,7 @@ export default function Home() {
           <a
             href="/investment"
             className="inline-block bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
-            style={{ color: 'rgb(107, 42, 0)' }}
+            style={{ color: 'rgb(224, 151, 65)' }}
           >
             Investment Opportunities
           </a>
@@ -131,9 +131,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
+      <footer className="py-8" style={{ backgroundColor: 'rgb(224, 151, 65)' }}>
         <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-400">
+          <p className="text-white">
             © 2025 B&R Marine Energy Logistics Ltd. All rights reserved.
           </p>
         </div>
