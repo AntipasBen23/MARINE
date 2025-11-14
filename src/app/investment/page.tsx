@@ -37,9 +37,13 @@ export default function InvestmentPage() {
                   <strong style={{ color: 'rgb(107, 42, 0)' }}>Location:</strong> Lokoja, Kogi State
                 </p>
               </div>
-              <button className="w-full py-3 rounded-lg text-white font-semibold hover:opacity-90 transition" style={{ backgroundColor: 'rgb(224, 151, 65)' }}>
+              <a 
+                href="/projects/kogi-gold"
+                className="block w-full py-3 rounded-lg text-white font-semibold hover:opacity-90 transition text-center" 
+                style={{ backgroundColor: 'rgb(224, 151, 65)' }}
+              >
                 Learn More
-              </button>
+              </a>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm border-2" style={{ borderColor: 'rgb(224, 151, 65)' }}>
@@ -57,9 +61,13 @@ export default function InvestmentPage() {
                   <strong style={{ color: 'rgb(107, 42, 0)' }}>Location:</strong> Calabar, Cross River State
                 </p>
               </div>
-              <button className="w-full py-3 rounded-lg text-white font-semibold hover:opacity-90 transition" style={{ backgroundColor: 'rgb(224, 151, 65)' }}>
+              <a 
+                href="/projects/cross-river"
+                className="block w-full py-3 rounded-lg text-white font-semibold hover:opacity-90 transition text-center" 
+                style={{ backgroundColor: 'rgb(224, 151, 65)' }}
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </div>

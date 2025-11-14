@@ -25,7 +25,7 @@ export default function ProjectsPage() {
               <div className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition">
                 <div className="relative h-64">
                   <Image 
-                    src="/images/projects/kogi-gold.png" 
+                    src="/images/kogi-gold.png" 
                     alt="Kogi Gold Project" 
                     fill
                     className="object-cover group-hover:scale-105 transition"
@@ -55,7 +55,7 @@ export default function ProjectsPage() {
               <div className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition">
                 <div className="relative h-64">
                   <Image 
-                    src="/images/projects/cross-river.jpg" 
+                    src="/images/projects/cross-river.png" 
                     alt="Cross River Project" 
                     fill
                     className="object-cover group-hover:scale-105 transition"
