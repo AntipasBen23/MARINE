@@ -31,13 +31,17 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-amber-700 transition"
+                className="px-8 py-3 rounded-lg font-semibold transition"
+                style={{ backgroundColor: 'rgb(107, 42, 0)', color: 'white' }}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgb(87, 22, 0)'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgb(107, 42, 0)'}
               >
                 Explore Projects
               </a>
               <a
                 href="#contact"
-                className="border-2 border-amber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-amber-600/20 transition"
+                className="border-2 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition"
+                style={{ borderColor: 'rgb(107, 42, 0)' }}
               >
                 Contact Us
               </a>
@@ -51,21 +55,21 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold text-amber-700 mb-2">
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                 {companyInfo.sites.kogi.cadastralUnits}
               </div>
               <div className="text-gray-600">Cadastral Units - Kogi</div>
               <div className="text-sm text-gray-500 mt-2">Gold Exploration</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold text-amber-700 mb-2">
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                 {companyInfo.sites.crossRiver.cadastralUnits}
               </div>
               <div className="text-gray-600">Cadastral Units - Cross River</div>
               <div className="text-sm text-gray-500 mt-2">Multi-Mineral</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold text-amber-700 mb-2">
+              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                 {companyInfo.sites.crossRiver.mineralsCount}+
               </div>
               <div className="text-gray-600">Minerals Identified</div>
@@ -82,8 +86,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.coreValues.map((value, index) => (
               <div key={index} className="text-center p-6">
-                <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-amber-700">{index + 1}</span>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(107, 42, 0, 0.2)' }}>
+                  <span className="text-2xl font-bold" style={{ color: 'rgb(107, 42, 0)' }}>{index + 1}</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{value}</h3>
               </div>
@@ -99,7 +103,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.activities.map((activity, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-3 text-amber-700">
+                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>
                   {activity.title}
                 </h3>
                 <p className="text-gray-600">{activity.description}</p>
@@ -110,15 +114,16 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-16 bg-gradient-to-r from-amber-600 to-amber-700 text-white">
+      <section id="contact" className="py-16 text-white" style={{ background: 'linear-gradient(to right, rgb(107, 42, 0), rgb(87, 22, 0))' }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Invest in Africa's Future?</h2>
-          <p className="text-xl mb-8 text-amber-50">
+          <p className="text-xl mb-8 text-white/90">
             Join us in unlocking the mineral wealth of Nigeria
           </p>
           <a
             href="/investment"
-            className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition"
+            className="inline-block bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+            style={{ color: 'rgb(107, 42, 0)' }}
           >
             Investment Opportunities
           </a>
