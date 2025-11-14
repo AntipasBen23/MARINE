@@ -9,7 +9,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero-background.jfif" 
+            src="/images/hero-background.jpg" 
             alt="Mining Operations" 
             fill
             className="object-cover"
@@ -31,13 +31,13 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
+                className="bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-amber-700 transition"
               >
                 Explore Projects
               </a>
               <a
                 href="#contact"
-                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
+                className="border-2 border-amber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-amber-600/20 transition"
               >
                 Contact Us
               </a>
@@ -51,21 +51,21 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold text-blue-900 mb-2">
+              <div className="text-4xl font-bold text-amber-700 mb-2">
                 {companyInfo.sites.kogi.cadastralUnits}
               </div>
               <div className="text-gray-600">Cadastral Units - Kogi</div>
               <div className="text-sm text-gray-500 mt-2">Gold Exploration</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold text-blue-900 mb-2">
+              <div className="text-4xl font-bold text-amber-700 mb-2">
                 {companyInfo.sites.crossRiver.cadastralUnits}
               </div>
               <div className="text-gray-600">Cadastral Units - Cross River</div>
               <div className="text-sm text-gray-500 mt-2">Multi-Mineral</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold text-blue-900 mb-2">
+              <div className="text-4xl font-bold text-amber-700 mb-2">
                 {companyInfo.sites.crossRiver.mineralsCount}+
               </div>
               <div className="text-gray-600">Minerals Identified</div>
@@ -82,8 +82,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.coreValues.map((value, index) => (
               <div key={index} className="text-center p-6">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-blue-900">{index + 1}</span>
+                <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-amber-700">{index + 1}</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{value}</h3>
               </div>
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.activities.map((activity, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-3 text-blue-900">
+                <h3 className="text-xl font-semibold mb-3 text-amber-700">
                   {activity.title}
                 </h3>
                 <p className="text-gray-600">{activity.description}</p>
@@ -110,15 +110,15 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-16 bg-blue-900 text-white">
+      <section id="contact" className="py-16 bg-gradient-to-r from-amber-600 to-amber-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Invest in Africa's Future?</h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-amber-50">
             Join us in unlocking the mineral wealth of Nigeria
           </p>
           <a
             href="/investment"
-            className="inline-block bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
+            className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition"
           >
             Investment Opportunities
           </a>
