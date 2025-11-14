@@ -1,11 +1,22 @@
 import { companyInfo, contactInfo } from "@/lib/data/company";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section className="relative py-24 bg-gray-50">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/about-hero.jfif" 
+            alt="About B&R Marine" 
+            fill
+            className="object-cover opacity-20"
+          />
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
             About B&R Marine Energy
           </h1>
@@ -65,6 +76,15 @@ export default function AboutPage() {
             Leadership
           </h2>
           <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm text-center">
+            {/* Managing Director Photo */}
+            <div className="relative w-32 h-32 mx-auto mb-6">
+              <Image 
+                src="/images/managing-director.jpg" 
+                alt={contactInfo.managingDirector.name}
+                fill
+                className="object-cover rounded-full"
+              />
+            </div>
             <h3 className="text-2xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
               {contactInfo.managingDirector.name}
             </h3>
