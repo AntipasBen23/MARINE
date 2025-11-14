@@ -1,11 +1,21 @@
-import { companyInfo } from "@/lib/data/company"
+import { companyInfo } from "@/lib/data/company";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
-        <div className="container mx-auto px-4 py-24 md:py-32">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/images/hero-background.jpg" 
+            alt="Mining Operations" 
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/80 to-blue-950/80"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               {companyInfo.mission}
