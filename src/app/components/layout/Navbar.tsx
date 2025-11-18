@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-10 h-10">
+            <div className="relative w-12 h-12">
               <Image 
                 src="/images/logo.png" 
                 alt="B&R Marine Energy Logo" 
