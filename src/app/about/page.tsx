@@ -15,11 +15,11 @@ export default function AboutPage() {
             className="object-cover opacity-20"
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/60"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#1a4d2e' }}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
             About B&R Marine Energy
           </h1>
           <p className="text-lg max-w-3xl text-white">
@@ -33,18 +33,18 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: 'rgb(107, 42, 0)' }}>
                 Our Mission
               </h2>
-              <p style={{ color: '#d4a029' }}>
+              <p style={{ color: 'rgb(224, 151, 65)' }}>
                 {companyInfo.mission}
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: 'rgb(107, 42, 0)' }}>
                 Our Vision
               </h2>
-              <p style={{ color: '#d4a029' }}>
+              <p style={{ color: 'rgb(224, 151, 65)' }}>
                 {companyInfo.vision}
               </p>
             </div>
@@ -55,16 +55,16 @@ export default function AboutPage() {
       {/* Core Values */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>
             Our Core Values
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.coreValues.map((value, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm text-center">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)' }}>
-                  <span className="text-2xl font-bold" style={{ color: '#1a4d2e' }}>{index + 1}</span>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(224, 151, 65, 0.2)' }}>
+                  <span className="text-2xl font-bold" style={{ color: 'rgb(107, 42, 0)' }}>{index + 1}</span>
                 </div>
-                <h3 className="text-xl font-semibold" style={{ color: '#d4a029' }}>{value}</h3>
+                <h3 className="text-xl font-semibold" style={{ color: 'rgb(224, 151, 65)' }}>{value}</h3>
               </div>
             ))}
           </div>
@@ -74,7 +74,7 @@ export default function AboutPage() {
       {/* Leadership */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>
             Leadership
           </h2>
           <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm text-center">
@@ -87,13 +87,13 @@ export default function AboutPage() {
                 className="object-cover rounded-full"
               />
             </div>
-            <h3 className="text-2xl font-bold mb-2" style={{ color: '#1a4d2e' }}>
+            <h3 className="text-2xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
               {contactInfo.managingDirector.name}
             </h3>
-            <p style={{ color: '#d4a029' }} className="mb-2">
+            <p style={{ color: 'rgb(224, 151, 65)' }} className="mb-2">
               {contactInfo.managingDirector.title}
             </p>
-            <p style={{ color: '#2d5a3d' }}>
+            <p style={{ color: 'rgb(224, 151, 65)' }}>
               {contactInfo.managingDirector.role}
             </p>
           </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
       {/* Partners */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>
             Our Partners
           </h2>
           <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-sm">
@@ -111,7 +111,7 @@ export default function AboutPage() {
               {/* Partner Logo */}
               <div className="relative w-48 h-48 flex-shrink-0">
                 <Image 
-                  src="/images/ebranell-logo.png" 
+                  src="/images/partners/ebranell-logo.png" 
                   alt="EBRANELL ORES NIG LTD"
                   fill
                   className="object-contain"
@@ -120,27 +120,27 @@ export default function AboutPage() {
 
               {/* Partner Info */}
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
+                <h3 className="text-2xl font-bold mb-4" style={{ color: 'rgb(107, 42, 0)' }}>
                   EBRANELL ORES NIG LTD
                 </h3>
-                <p className="mb-4" style={{ color: '#2d5a3d' }}>
+                <p className="mb-4" style={{ color: 'rgb(224, 151, 65)' }}>
                   Since our incorporation in 2007, we have been the trusted partner for clients navigating the complex world of solid minerals and mining. Backed by the expertise of three generations, we combine deep technical knowledge with strategic insight to deliver solutions that drive results.
                 </p>
                 
                 <div className="mb-4">
-                  <h4 className="font-semibold mb-2" style={{ color: '#1a4d2e' }}>
+                  <h4 className="font-semibold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                     Partnership Value
                   </h4>
-                  <p style={{ color: '#2d5a3d' }}>
+                  <p style={{ color: 'rgb(224, 151, 65)' }}>
                     They are in charge of the geographical measurements of the site and provide comprehensive exploration and mapping services from reconnaissance to production.
                   </p>
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="font-semibold mb-2" style={{ color: '#1a4d2e' }}>
+                  <h4 className="font-semibold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                     Core Expertise
                   </h4>
-                  <div className="space-y-1" style={{ color: '#2d5a3d' }}>
+                  <div className="space-y-1" style={{ color: 'rgb(224, 151, 65)' }}>
                     <p>• Geological mapping & geophysical surveys</p>
                     <p>• Geochemical surveys & core drilling services</p>
                     <p>• Full-cycle mining expertise</p>
@@ -153,7 +153,7 @@ export default function AboutPage() {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block px-6 py-2 rounded-lg text-white hover:opacity-90 transition"
-                  style={{ backgroundColor: '#d4a029' }}
+                  style={{ backgroundColor: 'rgb(224, 151, 65)' }}
                 >
                   Visit Website
                 </a>
@@ -166,16 +166,16 @@ export default function AboutPage() {
       {/* Global Presence */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>
             Global Presence
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {contactInfo.offices.map((office, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-2" style={{ color: '#1a4d2e' }}>
+                <h3 className="text-xl font-semibold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
                   {office.city}, {office.country}
                 </h3>
-                <p className="text-sm" style={{ color: '#d4a029' }}>
+                <p className="text-sm" style={{ color: 'rgb(224, 151, 65)' }}>
                   {office.address}
                 </p>
               </div>
