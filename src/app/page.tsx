@@ -36,14 +36,14 @@ export default function Home() {
               <a
                 href="#projects"
                 className="px-8 py-3 rounded-lg font-semibold transition hover:opacity-90"
-                style={{ backgroundColor: 'rgb(107, 42, 0)', color: 'white' }}
+                style={{ backgroundColor: '#d4a029', color: 'white' }}
               >
                 Explore Projects
               </a>
               <a
                 href="#contact"
                 className="border-2 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition"
-                style={{ borderColor: 'rgb(107, 42, 0)' }}
+                style={{ borderColor: '#d4a029' }}
               >
                 Contact Us
               </a>
@@ -57,25 +57,25 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: '#1a4d2e' }}>
                 {companyInfo.sites.kogi.cadastralUnits}
               </div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units - Kogi</div>
-              <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Gold Exploration</div>
+              <div style={{ color: '#d4a029' }}>Cadastral Units - Kogi</div>
+              <div className="text-sm mt-2" style={{ color: '#7cb342' }}>Gold Exploration</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: '#1a4d2e' }}>
                 {companyInfo.sites.crossRiver.cadastralUnits}
               </div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units - Cross River</div>
-              <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Multi-Mineral</div>
+              <div style={{ color: '#d4a029' }}>Cadastral Units - Cross River</div>
+              <div className="text-sm mt-2" style={{ color: '#7cb342' }}>Multi-Mineral</div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="text-4xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>
+              <div className="text-4xl font-bold mb-2" style={{ color: '#1a4d2e' }}>
                 {companyInfo.sites.crossRiver.mineralsCount}+
               </div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Minerals Identified</div>
-              <div className="text-sm mt-2" style={{ color: 'rgb(224, 151, 65)' }}>Calabar Site</div>
+              <div style={{ color: '#d4a029' }}>Minerals Identified</div>
+              <div className="text-sm mt-2" style={{ color: '#7cb342' }}>Calabar Site</div>
             </div>
           </div>
         </div>
@@ -84,14 +84,14 @@ export default function Home() {
       {/* Values Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>Our Core Values</h2>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.coreValues.map((value, index) => (
               <div key={index} className="text-center p-6">
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(224, 151, 65, 0.2)' }}>
-                  <span className="text-2xl font-bold" style={{ color: 'rgb(107, 42, 0)' }}>{index + 1}</span>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)' }}>
+                  <span className="text-2xl font-bold" style={{ color: '#1a4d2e' }}>{index + 1}</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-2" style={{ color: 'rgb(224, 151, 65)' }}>{value}</h3>
+                <h3 className="text-xl font-semibold mb-2" style={{ color: '#d4a029' }}>{value}</h3>
               </div>
             ))}
           </div>
@@ -101,14 +101,14 @@ export default function Home() {
       {/* Activities Section */}
       <section id="projects" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: 'rgb(107, 42, 0)' }}>Our Operations</h2>
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>Our Operations</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {companyInfo.activities.map((activity, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>
                   {activity.title}
                 </h3>
-                <p style={{ color: 'rgb(224, 151, 65)' }}>{activity.description}</p>
+                <p style={{ color: '#2d5a3d' }}>{activity.description}</p>
               </div>
             ))}
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-16 text-white" style={{ background: 'linear-gradient(to right, rgb(224, 151, 65), rgb(204, 131, 45))' }}>
+      <section id="contact" className="py-16 text-white" style={{ background: 'linear-gradient(to right, #1a4d2e, #2d5a3d)' }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Invest in Africa's Future?</h2>
           <p className="text-xl mb-8 text-white/90">
@@ -124,8 +124,8 @@ export default function Home() {
           </p>
           <a
             href="/investment"
-            className="inline-block bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
-            style={{ color: 'rgb(224, 151, 65)' }}
+            className="inline-block px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+            style={{ backgroundColor: '#d4a029', color: 'white' }}
           >
             Investment Opportunities
           </a>
