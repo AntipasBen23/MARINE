@@ -111,7 +111,7 @@ export default function AboutPage() {
               {/* Partner Logo */}
               <div className="relative w-48 h-48 flex-shrink-0">
                 <Image 
-                  src="/images/ebranell-logo.png" 
+                  src="/images/partners/ebranell-logo.png" 
                   alt="EBRANELL ORES NIG LTD"
                   fill
                   className="object-contain"
@@ -121,7 +121,7 @@ export default function AboutPage() {
               {/* Partner Info */}
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
-                  ENBRANELL ORES NIG LTD
+                  EBRANELL ORES NIG LTD
                 </h3>
                 <p className="mb-4" style={{ color: '#2d5a3d' }}>
                   Since our incorporation in 2007, we have been the trusted partner for clients navigating the complex world of solid minerals and mining. Backed by the expertise of three generations, we combine deep technical knowledge with strategic insight to deliver solutions that drive results.
@@ -158,6 +158,61 @@ export default function AboutPage() {
                   Visit Website
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Clients */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12" style={{ color: '#1a4d2e' }}>
+            Our Clients
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Ministry of Solid Minerals Development */}
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center hover:shadow-md transition">
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <Image 
+                  src="/images/clients/ministry-solid-minerals.png" 
+                  alt="Ministry of Solid Minerals Development"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-lg font-semibold" style={{ color: '#1a4d2e' }}>
+                Ministry of Solid Minerals Development
+              </h3>
+            </div>
+
+            {/* Mining Cadastre Office */}
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center hover:shadow-md transition">
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <Image 
+                  src="/images/clients/mining-cadastre-office.png" 
+                  alt="Mining Cadastre Office"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-lg font-semibold" style={{ color: '#1a4d2e' }}>
+                Mining Cadastre Office
+              </h3>
+            </div>
+
+            {/* Nigerian Geological Survey Agency */}
+            <div className="bg-white p-8 rounded-lg shadow-sm text-center hover:shadow-md transition">
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <Image 
+                  src="/images/clients/nigerian-geological-survey.png" 
+                  alt="Nigerian Geological Survey Agency"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-lg font-semibold" style={{ color: '#1a4d2e' }}>
+                Nigerian Geological Survey Agency
+              </h3>
             </div>
           </div>
         </div>
