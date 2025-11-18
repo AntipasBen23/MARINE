@@ -77,11 +77,6 @@ export const contactInfo = {
       address: "5 William Merriman Road, Marlborough",
     },
     {
-      country: "Panama",
-      city: "Ciudad Panama",
-      address: "Officina M-09, Mesanini, Edificio Comosa Av Samuel Lewis, Baio, Bellavista",
-    },
-    {
       country: "United States",
       city: "Fort Lauderdale",
       address: "410 SE, 18th Street Fort Lauderdale, FL 33316",
@@ -89,10 +84,10 @@ export const contactInfo = {
   ],
   
   contact: {
-    website: "www.brmarineenergy.com",
+    website: "brmarineenergy.com",
     email: "info.ng@brmarineenergy.com",
     emailAlt: "captibedu@gmail.com",
-    phones: ["+2348025454600", "+2348032932879", "+2349083553556", "+44 7931 774208"],
-    direct: "+234908 355 3556",
+    phones: ["+2348025454600", "+44 7931 774208"],
+    direct: "+2348025454600",
   },
 };
