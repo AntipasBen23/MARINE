@@ -1,19 +1,6 @@
 import Image from "next/image";
 
 export default function KogiGoldPage() {
-  const coordinates = [
-    { id: 0, lon: "6°30'0.2\"", lat: "8°17'27\"" },
-    { id: 1, lon: "6°30'41.2\"", lat: "8°17'40.3\"" },
-    { id: 2, lon: "6°29'1.6\"", lat: "8°17'15.5\"" },
-    { id: 3, lon: "6°29'10.2\"", lat: "8°18'55\"" },
-    { id: 4, lon: "6°29'5.5\"", lat: "8°18'27.7\"" },
-    { id: 5, lon: "6°29'23\"", lat: "8°18'4.2\"" },
-    { id: 6, lon: "6°28'56.5\"", lat: "8°17'44.5\"" },
-    { id: 7, lon: "6°30'8.3\"", lat: "8°18'18.7\"" },
-    { id: 8, lon: "6°29'33.3\"", lat: "8°18'33.2\"" },
-    { id: 9, lon: "6°31'0.4\"", lat: "8°17'48.4\"" },
-  ];
-
   return (
     <main className="min-h-screen">
       {/* Hero */}
@@ -39,7 +26,7 @@ export default function KogiGoldPage() {
       {/* Project Stats */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>117</div>
               <div style={{ color: 'rgb(224, 151, 65)' }}>Square Kilometers</div>
@@ -47,10 +34,6 @@ export default function KogiGoldPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>410</div>
               <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units</div>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>10</div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Target Coordinates</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>Gold</div>
@@ -89,37 +72,8 @@ export default function KogiGoldPage() {
         </div>
       </section>
 
-      {/* Target Coordinates */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8" style={{ color: 'rgb(107, 42, 0)' }}>
-            Exploration Target Coordinates
-          </h2>
-          <div className="bg-white rounded-lg shadow-sm overflow-x-auto">
-            <table className="w-full">
-              <thead style={{ backgroundColor: 'rgb(107, 42, 0)' }}>
-                <tr>
-                  <th className="px-6 py-3 text-left text-white">S/N</th>
-                  <th className="px-6 py-3 text-left text-white">Longitude</th>
-                  <th className="px-6 py-3 text-left text-white">Latitude</th>
-                </tr>
-              </thead>
-              <tbody>
-                {coordinates.map((coord) => (
-                  <tr key={coord.id} className="border-b">
-                    <td className="px-6 py-4" style={{ color: 'rgb(107, 42, 0)' }}>{coord.id}</td>
-                    <td className="px-6 py-4" style={{ color: 'rgb(224, 151, 65)' }}>{coord.lon}</td>
-                    <td className="px-6 py-4" style={{ color: 'rgb(224, 151, 65)' }}>{coord.lat}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
       {/* Findings */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8" style={{ color: 'rgb(107, 42, 0)' }}>
             Key Findings
