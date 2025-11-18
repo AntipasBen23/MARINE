@@ -110,7 +110,7 @@ export default function KogiGoldPage() {
               Access the complete geophysical interpretation report with detailed findings, geological data, and mineral exploration analysis for the Kogi State Gold Exploration Project.
             </p>
             <a
-              href="https://www.notion.so/Kogi-Technical-Report-for-gold-mineralization_Kirri-NE_Koton-Karfi-for-B-R-Marine-Energy-2ac3084ed3958068aaaae2f2c992b8e9?source=copy_link"
+              href="https://pear-fireman-5e2.notion.site/Kogi-Technical-Report-for-gold-mineralization_Kirri-NE_Koton-Karfi-for-B-R-Marine-Energy-2ac3084ed3958068aaaae2f2c992b8e9?source=copy_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-3 rounded-lg text-white font-semibold hover:opacity-90 transition"

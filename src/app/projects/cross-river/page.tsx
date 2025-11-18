@@ -126,7 +126,7 @@ export default function CrossRiverPage() {
               Access the complete technical report on alluvial gold mineralization with detailed geological analysis, mineral identification, and exploration findings for the Cross River Multi-Mineral Project.
             </p>
             <a
-              href="https://www.notion.so/Technical-Report-for-Alluvial-gold-mineralization_Parts-of-Sheet-314_Ugep-1-final-draft-2af3084ed39580748926cabbe6a2e6cd?source=copy_link"
+              href="https://pear-fireman-5e2.notion.site/Technical-Report-for-Alluvial-gold-mineralization_Parts-of-Sheet-314_Ugep-1-final-draft-2af3084ed39580748926cabbe6a2e6cd?source=copy_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-3 rounded-lg text-white font-semibold hover:opacity-90 transition"
