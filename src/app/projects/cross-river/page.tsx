@@ -114,6 +114,29 @@ export default function CrossRiverPage() {
           </div>
         </div>
       </section>
+
+      {/* Technical Report CTA */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
+              Technical Report
+            </h2>
+            <p className="text-lg mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
+              Access the complete technical report on alluvial gold mineralization with detailed geological analysis, mineral identification, and exploration findings for the Cross River Multi-Mineral Project.
+            </p>
+            <a
+              href="https://www.notion.so/Technical-Report-for-Alluvial-gold-mineralization_Parts-of-Sheet-314_Ugep-1-final-draft-2af3084ed39580748926cabbe6a2e6cd?source=copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 rounded-lg text-white font-semibold hover:opacity-90 transition"
+              style={{ backgroundColor: 'rgb(224, 151, 65)' }}
+            >
+              View Full Technical Report
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
