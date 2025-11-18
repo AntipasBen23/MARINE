@@ -174,7 +174,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-lg shadow-sm text-center hover:shadow-md transition">
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <Image 
-                  src="/images/clients/ministry-solid-minerals.png" 
+                  src="/images/ministry-solid-minerals.png" 
                   alt="Ministry of Solid Minerals Development"
                   fill
                   className="object-contain"
@@ -189,7 +189,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-lg shadow-sm text-center hover:shadow-md transition">
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <Image 
-                  src="/images/clients/mining-cadastre-office.png" 
+                  src="/images/mining-cadastre-office.png" 
                   alt="Mining Cadastre Office"
                   fill
                   className="object-contain"
@@ -204,7 +204,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-lg shadow-sm text-center hover:shadow-md transition">
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <Image 
-                  src="/images/clients/nigerian-geological-survey.png" 
+                  src="/images/nigerian-geological-survey.png" 
                   alt="Nigerian Geological Survey Agency"
                   fill
                   className="object-contain"
