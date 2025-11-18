@@ -98,6 +98,29 @@ export default function KogiGoldPage() {
           </div>
         </div>
       </section>
+
+      {/* Technical Report CTA */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
+              Technical Report
+            </h2>
+            <p className="text-lg mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
+              Access the complete geophysical interpretation report with detailed findings, geological data, and mineral exploration analysis for the Kogi State Gold Exploration Project.
+            </p>
+            <a
+              href="https://www.notion.so/Kogi-Technical-Report-for-gold-mineralization_Kirri-NE_Koton-Karfi-for-B-R-Marine-Energy-2ac3084ed3958068aaaae2f2c992b8e9?source=copy_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 rounded-lg text-white font-semibold hover:opacity-90 transition"
+              style={{ backgroundColor: 'rgb(224, 151, 65)' }}
+            >
+              View Full Technical Report
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
