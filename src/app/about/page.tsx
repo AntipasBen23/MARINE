@@ -36,7 +36,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
                 Our Mission
               </h2>
-              <p style={{ color: '#2d5a3d' }}>
+              <p style={{ color: '#d4a029' }}>
                 {companyInfo.mission}
               </p>
             </div>
@@ -44,7 +44,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
                 Our Vision
               </h2>
-              <p style={{ color: '#2d5a3d' }}>
+              <p style={{ color: '#d4a029' }}>
                 {companyInfo.vision}
               </p>
             </div>
@@ -175,7 +175,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold mb-2" style={{ color: '#1a4d2e' }}>
                   {office.city}, {office.country}
                 </h3>
-                <p className="text-sm" style={{ color: '#2d5a3d' }}>
+                <p className="text-sm" style={{ color: '#d4a029' }}>
                   {office.address}
                 </p>
               </div>

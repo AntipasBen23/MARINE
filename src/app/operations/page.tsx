@@ -122,7 +122,7 @@ export default function OperationsPage() {
                 <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>
                   {activity.title}
                 </h3>
-                <p style={{ color: '#2d5a3d' }}>{activity.description}</p>
+                <p style={{ color: '#d4a029' }}>{activity.description}</p>
               </div>
             ))}
           </div>

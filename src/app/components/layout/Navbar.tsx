@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -15,8 +16,18 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-xl font-bold" style={{ color: '#1a4d2e' }}>
-            B&R Marine Energy
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative w-10 h-10">
+              <Image 
+                src="/images/logo.png" 
+                alt="B&R Marine Energy Logo" 
+                fill
+                className="object-contain"
+              />
+            </div>
+            <span className="text-xl font-bold" style={{ color: 'rgb(107, 42, 0)' }}>
+              B&R Marine Energy
+            </span>
           </Link>
 
           {/* Desktop Menu */}
@@ -25,9 +36,9 @@ export default function Navbar() {
               href="/" 
               className="hover:opacity-70"
               style={{ 
-                color: '#1a4d2e',
+                color: 'rgb(107, 42, 0)',
                 fontWeight: isActive('/') ? 'bold' : 'normal',
-                borderBottom: isActive('/') ? '2px solid #d4a029' : 'none'
+                borderBottom: isActive('/') ? '2px solid rgb(224, 151, 65)' : 'none'
               }}
             >
               Home
@@ -36,9 +47,9 @@ export default function Navbar() {
               href="/about" 
               className="hover:opacity-70"
               style={{ 
-                color: '#1a4d2e',
+                color: 'rgb(107, 42, 0)',
                 fontWeight: isActive('/about') ? 'bold' : 'normal',
-                borderBottom: isActive('/about') ? '2px solid #d4a029' : 'none'
+                borderBottom: isActive('/about') ? '2px solid rgb(224, 151, 65)' : 'none'
               }}
             >
               About
@@ -47,9 +58,9 @@ export default function Navbar() {
               href="/operations" 
               className="hover:opacity-70"
               style={{ 
-                color: '#1a4d2e',
+                color: 'rgb(107, 42, 0)',
                 fontWeight: isActive('/operations') ? 'bold' : 'normal',
-                borderBottom: isActive('/operations') ? '2px solid #d4a029' : 'none'
+                borderBottom: isActive('/operations') ? '2px solid rgb(224, 151, 65)' : 'none'
               }}
             >
               Operations
@@ -58,9 +69,9 @@ export default function Navbar() {
               href="/projects" 
               className="hover:opacity-70"
               style={{ 
-                color: '#1a4d2e',
+                color: 'rgb(107, 42, 0)',
                 fontWeight: pathname.startsWith('/projects') ? 'bold' : 'normal',
-                borderBottom: pathname.startsWith('/projects') ? '2px solid #d4a029' : 'none'
+                borderBottom: pathname.startsWith('/projects') ? '2px solid rgb(224, 151, 65)' : 'none'
               }}
             >
               Projects
@@ -69,9 +80,9 @@ export default function Navbar() {
               href="/equipment" 
               className="hover:opacity-70"
               style={{ 
-                color: '#1a4d2e',
+                color: 'rgb(107, 42, 0)',
                 fontWeight: isActive('/equipment') ? 'bold' : 'normal',
-                borderBottom: isActive('/equipment') ? '2px solid #d4a029' : 'none'
+                borderBottom: isActive('/equipment') ? '2px solid rgb(224, 151, 65)' : 'none'
               }}
             >
               Equipment
@@ -80,9 +91,9 @@ export default function Navbar() {
               href="/minerals" 
               className="hover:opacity-70"
               style={{ 
-                color: '#1a4d2e',
+                color: 'rgb(107, 42, 0)',
                 fontWeight: isActive('/minerals') ? 'bold' : 'normal',
-                borderBottom: isActive('/minerals') ? '2px solid #d4a029' : 'none'
+                borderBottom: isActive('/minerals') ? '2px solid rgb(224, 151, 65)' : 'none'
               }}
             >
               Minerals
@@ -91,8 +102,8 @@ export default function Navbar() {
               href="/investment" 
               className="px-6 py-2 rounded-lg text-white hover:opacity-90"
               style={{ 
-                backgroundColor: '#d4a029',
-                boxShadow: isActive('/investment') ? '0 4px 0 0 #1a4d2e' : 'none'
+                backgroundColor: 'rgb(224, 151, 65)',
+                boxShadow: isActive('/investment') ? '0 4px 0 0 rgb(107, 42, 0)' : 'none'
               }}
             >
               Invest
@@ -103,7 +114,7 @@ export default function Navbar() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden"
-            style={{ color: '#1a4d2e' }}
+            style={{ color: 'rgb(107, 42, 0)' }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -118,7 +129,7 @@ export default function Navbar() {
               <Link 
                 href="/" 
                 style={{ 
-                  color: '#1a4d2e',
+                  color: 'rgb(107, 42, 0)',
                   fontWeight: isActive('/') ? 'bold' : 'normal'
                 }}
               >
@@ -127,7 +138,7 @@ export default function Navbar() {
               <Link 
                 href="/about" 
                 style={{ 
-                  color: '#1a4d2e',
+                  color: 'rgb(107, 42, 0)',
                   fontWeight: isActive('/about') ? 'bold' : 'normal'
                 }}
               >
@@ -136,7 +147,7 @@ export default function Navbar() {
               <Link 
                 href="/operations" 
                 style={{ 
-                  color: '#1a4d2e',
+                  color: 'rgb(107, 42, 0)',
                   fontWeight: isActive('/operations') ? 'bold' : 'normal'
                 }}
               >
@@ -145,7 +156,7 @@ export default function Navbar() {
               <Link 
                 href="/projects" 
                 style={{ 
-                  color: '#1a4d2e',
+                  color: 'rgb(107, 42, 0)',
                   fontWeight: pathname.startsWith('/projects') ? 'bold' : 'normal'
                 }}
               >
@@ -154,7 +165,7 @@ export default function Navbar() {
               <Link 
                 href="/equipment" 
                 style={{ 
-                  color: '#1a4d2e',
+                  color: 'rgb(107, 42, 0)',
                   fontWeight: isActive('/equipment') ? 'bold' : 'normal'
                 }}
               >
@@ -163,7 +174,7 @@ export default function Navbar() {
               <Link 
                 href="/minerals" 
                 style={{ 
-                  color: '#1a4d2e',
+                  color: 'rgb(107, 42, 0)',
                   fontWeight: isActive('/minerals') ? 'bold' : 'normal'
                 }}
               >
@@ -172,7 +183,7 @@ export default function Navbar() {
               <Link 
                 href="/investment" 
                 className="px-6 py-2 rounded-lg text-white text-center"
-                style={{ backgroundColor: '#d4a029' }}
+                style={{ backgroundColor: 'rgb(224, 151, 65)' }}
               >
                 Invest
               </Link>
