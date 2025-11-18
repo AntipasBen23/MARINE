@@ -35,7 +35,7 @@ export default function ProjectsPage() {
                   <h2 className="text-2xl font-bold mb-3" style={{ color: '#1a4d2e' }}>
                     Kogi State Gold Exploration
                   </h2>
-                  <p className="mb-4" style={{ color: '#2d5a3d' }}>
+                  <p className="mb-4" style={{ color: '#d4a029' }}>
                     Comprehensive geological survey and gold mineralization project in Lokoja, Kogi State. 117 sq. km exploration license.
                   </p>
                   <div className="flex gap-4 text-sm">
@@ -65,7 +65,7 @@ export default function ProjectsPage() {
                   <h2 className="text-2xl font-bold mb-3" style={{ color: '#1a4d2e' }}>
                     Cross River Multi-Mineral Project
                   </h2>
-                  <p className="mb-4" style={{ color: '#2d5a3d' }}>
+                  <p className="mb-4" style={{ color: '#d4a029' }}>
                     Multi-mineral exploration and extraction project in Calabar with over 64 identified minerals ready for mining.
                   </p>
                   <div className="flex gap-4 text-sm">
