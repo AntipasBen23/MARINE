@@ -11,14 +11,14 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero-background.png" 
+            src="/images/hero-background.jpg" 
             alt="Mining Operations" 
             fill
             className="object-cover"
             priority
           />
           {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
         
         <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
