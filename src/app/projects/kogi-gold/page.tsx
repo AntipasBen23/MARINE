@@ -43,6 +43,146 @@ export default function KogiGoldPage() {
         </div>
       </section>
 
+      {/* Key Minerals with Depth Data */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8" style={{ color: '#1a4d2e' }}>
+            Key Minerals with Depth Data
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>
+                Gold (AU)
+              </h3>
+              <div className="space-y-2">
+                <p style={{ color: '#2d5a3d' }}>
+                  <strong style={{ color: '#1a4d2e' }}>Width:</strong> 6m
+                </p>
+                <p style={{ color: '#2d5a3d' }}>
+                  <strong style={{ color: '#1a4d2e' }}>Depth:</strong> 5m
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>
+                Copper
+              </h3>
+              <div className="space-y-2">
+                <p style={{ color: '#2d5a3d' }}>
+                  <strong style={{ color: '#1a4d2e' }}>Width:</strong> 5m
+                </p>
+                <p style={{ color: '#2d5a3d' }}>
+                  <strong style={{ color: '#1a4d2e' }}>Depth:</strong> 5m
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Complete Mineral List */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8" style={{ color: '#1a4d2e' }}>
+            Complete Mineral List
+          </h2>
+          <div className="bg-white rounded-lg shadow-sm p-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Gold (AU)
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Hydrogen Gas
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Ruby
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Tungsten Trioxide
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Barium
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Glass Stone
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Coal
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Fluorite
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Nickel Oxide
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Polonium Dioxide
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Platinum Chloride
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Agate
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Aluminium
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Gypsum
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Copper
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Zircon
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Monazite
+                </span>
+              </div>
+              <div className="text-center">
+                <span className="text-sm px-2 py-1 rounded" style={{ backgroundColor: 'rgba(124, 179, 66, 0.2)', color: '#1a4d2e' }}>
+                  Germanium Dioxide
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Location */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
