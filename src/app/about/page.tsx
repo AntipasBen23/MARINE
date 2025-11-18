@@ -121,7 +121,7 @@ export default function AboutPage() {
               {/* Partner Info */}
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-4" style={{ color: '#1a4d2e' }}>
-                  EBRANELL ORES NIG LTD
+                  ENBRANELL ORES NIG LTD
                 </h3>
                 <p className="mb-4" style={{ color: '#2d5a3d' }}>
                   Since our incorporation in 2007, we have been the trusted partner for clients navigating the complex world of solid minerals and mining. Backed by the expertise of three generations, we combine deep technical knowledge with strategic insight to deliver solutions that drive results.
