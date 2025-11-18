@@ -111,7 +111,7 @@ export default function AboutPage() {
               {/* Partner Logo */}
               <div className="relative w-48 h-48 flex-shrink-0">
                 <Image 
-                  src="/images/partners/ebranell-logo.png" 
+                  src="/images/ebranell-logo.png" 
                   alt="EBRANELL ORES NIG LTD"
                   fill
                   className="object-contain"
