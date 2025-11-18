@@ -14,10 +14,10 @@ export default function KogiGoldPage() {
           />
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#1a4d2e' }}>
             Kogi State Gold Exploration Project
           </h1>
-          <p className="text-lg max-w-3xl" style={{ color: 'rgb(224, 151, 65)' }}>
+          <p className="text-lg max-w-3xl" style={{ color: '#2d5a3d' }}>
             Comprehensive geophysical interpretation and gold mineralization project in Lokoja, Kogi State.
           </p>
         </div>
@@ -28,16 +28,16 @@ export default function KogiGoldPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>117</div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Square Kilometers</div>
+              <div className="text-3xl font-bold mb-2" style={{ color: '#1a4d2e' }}>117</div>
+              <div style={{ color: '#d4a029' }}>Square Kilometers</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>410</div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Cadastral Units</div>
+              <div className="text-3xl font-bold mb-2" style={{ color: '#1a4d2e' }}>410</div>
+              <div style={{ color: '#d4a029' }}>Cadastral Units</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="text-3xl font-bold mb-2" style={{ color: 'rgb(107, 42, 0)' }}>Gold</div>
-              <div style={{ color: 'rgb(224, 151, 65)' }}>Primary Mineral</div>
+              <div className="text-3xl font-bold mb-2" style={{ color: '#1a4d2e' }}>Gold</div>
+              <div style={{ color: '#d4a029' }}>Primary Mineral</div>
             </div>
           </div>
         </div>
@@ -46,26 +46,26 @@ export default function KogiGoldPage() {
       {/* Location */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8" style={{ color: 'rgb(107, 42, 0)' }}>
+          <h2 className="text-3xl font-bold mb-8" style={{ color: '#1a4d2e' }}>
             Location Details
           </h2>
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>Area</h3>
-                <p style={{ color: 'rgb(224, 151, 65)' }}>Lokoja Local Government Area, Kogi State</p>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>Area</h3>
+                <p style={{ color: '#2d5a3d' }}>Lokoja Local Government Area, Kogi State</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>Accessibility</h3>
-                <p style={{ color: 'rgb(224, 151, 65)' }}>Close to River Niger, accessible via footpath and untarred road</p>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>Accessibility</h3>
+                <p style={{ color: '#2d5a3d' }}>Close to River Niger, accessible via footpath and untarred road</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>Geology</h3>
-                <p style={{ color: 'rgb(224, 151, 65)' }}>Undifferentiated Schist, favorable for gold mineralization</p>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>Geology</h3>
+                <p style={{ color: '#2d5a3d' }}>Undifferentiated Schist, favorable for gold mineralization</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>Topography</h3>
-                <p style={{ color: 'rgb(224, 151, 65)' }}>Mild ridge trending east-west direction</p>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>Topography</h3>
+                <p style={{ color: '#2d5a3d' }}>Mild ridge trending east-west direction</p>
               </div>
             </div>
           </div>
@@ -75,23 +75,23 @@ export default function KogiGoldPage() {
       {/* Findings */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8" style={{ color: 'rgb(107, 42, 0)' }}>
+          <h2 className="text-3xl font-bold mb-8" style={{ color: '#1a4d2e' }}>
             Key Findings
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>
                 Geological Setting
               </h3>
-              <p style={{ color: 'rgb(224, 151, 65)' }}>
+              <p style={{ color: '#2d5a3d' }}>
                 The area is suitable for gold mineralization due to pronounced tectonic activities and intense hydrothermal alteration.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3" style={{ color: 'rgb(107, 42, 0)' }}>
+              <h3 className="text-xl font-semibold mb-3" style={{ color: '#1a4d2e' }}>
                 Mineralization Type
               </h3>
-              <p style={{ color: 'rgb(224, 151, 65)' }}>
+              <p style={{ color: '#2d5a3d' }}>
                 Both primary and alluvial gold mineralization potential identified in the northeastern part of the concession.
               </p>
             </div>
@@ -103,10 +103,10 @@ export default function KogiGoldPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6" style={{ color: 'rgb(107, 42, 0)' }}>
+            <h2 className="text-3xl font-bold mb-6" style={{ color: '#1a4d2e' }}>
               Technical Report
             </h2>
-            <p className="text-lg mb-8" style={{ color: 'rgb(224, 151, 65)' }}>
+            <p className="text-lg mb-8" style={{ color: '#2d5a3d' }}>
               Access the complete geophysical interpretation report with detailed findings, geological data, and mineral exploration analysis for the Kogi State Gold Exploration Project.
             </p>
             <a
@@ -114,7 +114,7 @@ export default function KogiGoldPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-3 rounded-lg text-white font-semibold hover:opacity-90 transition"
-              style={{ backgroundColor: 'rgb(224, 151, 65)' }}
+              style={{ backgroundColor: '#d4a029' }}
             >
               View Full Technical Report
             </a>
