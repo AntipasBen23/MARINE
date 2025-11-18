@@ -3,13 +3,13 @@ import { contactInfo } from "@/lib/data/company";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: 'rgb(107, 42, 0)' }}>
+    <footer style={{ backgroundColor: '#1a4d2e' }}>
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ color: 'rgb(224, 151, 65)' }}>
+            <h3 className="text-xl font-bold mb-4" style={{ color: '#d4a029' }}>
               B&R Marine Energy
             </h3>
             <p className="text-white/80 text-sm">
@@ -19,7 +19,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4" style={{ color: 'rgb(224, 151, 65)' }}>
+            <h4 className="font-semibold mb-4" style={{ color: '#d4a029' }}>
               Quick Links
             </h4>
             <div className="flex flex-col gap-2">
@@ -32,7 +32,7 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="font-semibold mb-4" style={{ color: 'rgb(224, 151, 65)' }}>
+            <h4 className="font-semibold mb-4" style={{ color: '#d4a029' }}>
               Resources
             </h4>
             <div className="flex flex-col gap-2">
@@ -44,7 +44,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold mb-4" style={{ color: 'rgb(224, 151, 65)' }}>
+            <h4 className="font-semibold mb-4" style={{ color: '#d4a029' }}>
               Contact
             </h4>
             <div className="flex flex-col gap-2 text-sm">
@@ -65,7 +65,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10 py-6">
         <div className="container mx-auto px-4 text-center">
-          <p style={{ color: 'rgb(224, 151, 65)' }}>
+          <p style={{ color: '#d4a029' }}>
             © 2025 B&R Marine Energy Logistics Ltd. All rights reserved.
           </p>
         </div>
