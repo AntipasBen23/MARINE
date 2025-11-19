@@ -4,32 +4,32 @@ export default function EquipmentPage() {
   const equipment = [
     {
       name: "Hydraulic Excavator",
-      image: "/images/hydraulic-excavator.jpg",
+      image: "/images/hydraulic-excavator.png",
       description: "Heavy-duty excavation for mining operations"
     },
     {
       name: "Rope Shovels",
-      image: "/images/rope-shovels.jpg",
+      image: "/images/rope-shovels.png",
       description: "Large capacity mineral extraction"
     },
     {
       name: "Crawler Dozers",
-      image: "/images/crawler-dozers.jpg",
+      image: "/images/crawler-dozers.png",
       description: "Site preparation and earthmoving"
     },
     {
       name: "Off-Highway Trucks",
-      image: "/images/off-highway-trucks.jpg",
+      image: "/images/off-highway-trucks.png",
       description: "Heavy-duty mineral transportation"
     },
     {
       name: "Jaw Crushers",
-      image: "/images/jaw-crushers.jpg",
+      image: "/images/jaw-crushers.png",
       description: "Mineral crushing and processing"
     },
     {
       name: "Wheel Dozers",
-      image: "/images/wheel-dozers.jpg",
+      image: "/images/wheel-dozers.png",
       description: "Efficient material handling and grading"
     }
   ];
@@ -82,7 +82,7 @@ export default function EquipmentPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="text-4xl font-bold mb-2" style={{ color: '#1a4d2e' }}>
-                7+
+                6+
               </div>
               <div style={{ color: '#d4a029' }}>Equipment Types</div>
             </div>
