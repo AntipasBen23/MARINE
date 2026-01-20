@@ -31,7 +31,27 @@ export default function EquipmentPage() {
       name: "Wheel Dozers",
       image: "/images/wheel-dozers.png",
       description: "Efficient material handling and grading"
-    }
+    },
+    {
+  name: "CAT D349 Excavator",
+  image: "/images/cat-d349-excavator.jpg",
+  description: "Heavy-duty Caterpillar excavator for large-scale earthmoving and mining operations"
+},
+{
+  name: "Gold Washing Vibration Shaker Table",
+  image: "/images/gold-washing-shaker-table.jpg",
+  description: "Precision vibration table for efficient gold separation and mineral recovery"
+},
+{
+  name: "200 TPH Alluvial Amphibious Gold Washer",
+  image: "/images/200tph-amphibious-gold-washer.jpg",
+  description: "High-capacity amphibious system designed for alluvial gold extraction in wet terrains"
+},
+{
+  name: "Mining Camp Housing Units",
+  image: "/images/mining-camp-housing.jpg",
+  description: "On-site modular housing facilities for mining workforce accommodation and operations support"
+}
   ];
 
   return (
