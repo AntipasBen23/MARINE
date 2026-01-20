@@ -69,7 +69,7 @@ export default function OperationsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-80 order-2 lg:order-1">
               <Image 
-                src="/images/cross-river-site.png" 
+                src="/images/cross-river-site.jpg" 
                 alt="Cross River State Operations" 
                 fill
                 className="object-cover rounded-lg"
