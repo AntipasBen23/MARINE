@@ -48,13 +48,40 @@ export default function Footer() {
               Contact
             </h4>
             <div className="flex flex-col gap-2 text-sm">
-              <a href={`mailto:${contactInfo.contact.email}`} className="text-white/80 hover:text-white">
-                {contactInfo.contact.email}
-              </a>
-              <a href={`tel:${contactInfo.contact.direct}`} className="text-white/80 hover:text-white">
-                {contactInfo.contact.direct}
-              </a>
-              <p className="text-white/80">
+              {/* Emails */}
+              <div className="space-y-1">
+                <a 
+                  href={`mailto:${contactInfo.contact.email}`} 
+                  className="text-white/80 hover:text-white block"
+                >
+                  {contactInfo.contact.email}
+                </a>
+                <a 
+                  href={`mailto:${contactInfo.contact.emailAlt}`} 
+                  className="text-white/80 hover:text-white block"
+                >
+                  {contactInfo.contact.emailAlt}
+                </a>
+              </div>
+
+              {/* Phone Numbers */}
+              <div className="space-y-1 mt-2">
+                <a 
+                  href={`tel:${contactInfo.contact.whatsapp}`} 
+                  className="text-white/80 hover:text-white block"
+                >
+                  {contactInfo.contact.whatsapp} <span className="text-white/60">(WhatsApp)</span>
+                </a>
+                <a 
+                  href={`tel:${contactInfo.contact.phones[1]}`} 
+                  className="text-white/80 hover:text-white block"
+                >
+                  {contactInfo.contact.phones[1]} <span className="text-white/60">(UK)</span>
+                </a>
+              </div>
+
+              {/* Location */}
+              <p className="text-white/80 mt-2">
                 Lagos, Nigeria
               </p>
             </div>
