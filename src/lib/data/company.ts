@@ -88,6 +88,7 @@ export const contactInfo = {
     email: "info.ng@brmarineenergy.com",
     emailAlt: "captibedu@gmail.com",
     phones: ["+2348025454600", "+44 7931 774208"],
+    whatsapp: "+2348025454600",
     direct: "+2348025454600",
   },
 };
