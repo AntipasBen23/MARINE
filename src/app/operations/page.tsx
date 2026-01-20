@@ -53,7 +53,7 @@ export default function OperationsPage() {
             </div>
             <div className="relative h-80">
               <Image 
-                src="/images/kogi-site.png" 
+                src="/images/kogi-site.jpg" 
                 alt="Kogi State Operations" 
                 fill
                 className="object-cover rounded-lg"
